@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="183.0" y="141.0">by.andervyd.design_patterns.structural.bridge.JavaDeveloper</node>
+    <node x="332.9314814814814" y="0.0">by.andervyd.design_patterns.structural.bridge.Developer</node>
+    <node x="0.0" y="141.0">by.andervyd.design_patterns.structural.bridge.CppDeveloper</node>
+    <node x="780.5555581204474" y="149.15096952908584">by.andervyd.design_patterns.structural.bridge.ProgramCreator</node>
+    <node x="259.2231481481481" y="282.0">by.andervyd.design_patterns.structural.bridge.BankSystem</node>
+    <node x="694.2231481481481" y="282.0">by.andervyd.design_patterns.structural.bridge.StockExchange</node>
+    <node x="469.45092592592584" y="116.0">by.andervyd.design_patterns.structural.bridge.Program</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.andervyd.design_patterns.structural.bridge.ProgramCreator" target="by.andervyd.design_patterns.structural.bridge.Program">
+      <point x="0.0" y="-28.0" />
+      <point x="585.2231481481481" y="262.0" />
+      <point x="572.9509259259258" y="262.0" />
+      <point x="0.0" y="53.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.bridge.StockExchange" target="by.andervyd.design_patterns.structural.bridge.Program">
+      <point x="-79.33333333333331" y="-40.5" />
+      <point x="733.8898148148147" y="262.0" />
+      <point x="614.3509259259258" y="262.0" />
+      <point x="41.400000000000034" y="53.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.bridge.JavaDeveloper" target="by.andervyd.design_patterns.structural.bridge.Developer">
+      <point x="0.0" y="-28.0" />
+      <point x="264.5" y="86.0" />
+      <point x="373.6814814814814" y="86.0" />
+      <point x="-40.75" y="28.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.bridge.StockExchange" target="by.andervyd.design_patterns.structural.bridge.Developer">
+      <point x="79.33333333333331" y="-40.5" />
+      <point x="892.5564814814813" y="242.0" />
+      <point x="783.6175925925925" y="242.0" />
+      <point x="783.6175925925925" y="76.0" />
+      <point x="482.3481481481481" y="76.0" />
+      <point x="67.91666666666669" y="28.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.bridge.CppDeveloper" target="by.andervyd.design_patterns.structural.bridge.Developer">
+      <point x="0.0" y="-28.0" />
+      <point x="81.5" y="76.0" />
+      <point x="346.5148148148147" y="76.0" />
+      <point x="-67.91666666666669" y="28.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.bridge.Program" target="by.andervyd.design_patterns.structural.bridge.Developer">
+      <point x="-51.75" y="-53.0" />
+      <point x="521.2009259259258" y="96.0" />
+      <point x="428.01481481481477" y="96.0" />
+      <point x="13.583333333333371" y="28.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.bridge.BankSystem" target="by.andervyd.design_patterns.structural.bridge.Developer">
+      <point x="-72.33333333333331" y="-40.5" />
+      <point x="295.38981481481477" y="262.0" />
+      <point x="356.5" y="262.0" />
+      <point x="356.5" y="96.0" />
+      <point x="400.8481481481481" y="96.0" />
+      <point x="-13.583333333333314" y="28.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.bridge.BankSystem" target="by.andervyd.design_patterns.structural.bridge.Program">
+      <point x="72.33333333333337" y="-40.5" />
+      <point x="440.05648148148146" y="262.0" />
+      <point x="531.5509259259259" y="262.0" />
+      <point x="-41.39999999999998" y="53.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9425587467362923" x="466.5" y="181.50000000000003" />
+  <SelectedNodes>
+    <node>by.andervyd.design_patterns.structural.bridge.ProgramCreator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
