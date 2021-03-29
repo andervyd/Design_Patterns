@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">by.andervyd.design_patterns.structural.adapter.JavaApplication</node>
+    <node x="0.0" y="351.0">by.andervyd.design_patterns.structural.adapter.DatabaseRunner</node>
+    <node x="78.25" y="178.0">by.andervyd.design_patterns.structural.adapter.AdapterJavaToDatabase</node>
+    <node x="207.0" y="0.0">by.andervyd.design_patterns.structural.adapter.Database</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.andervyd.design_patterns.structural.adapter.AdapterJavaToDatabase" target="by.andervyd.design_patterns.structural.adapter.JavaApplication">
+      <point x="-54.0" y="-64.0" />
+      <point x="132.25" y="153.0" />
+      <point x="93.5" y="153.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="by.andervyd.design_patterns.structural.adapter.AdapterJavaToDatabase" target="by.andervyd.design_patterns.structural.adapter.Database">
+      <point x="54.0" y="-64.0" />
+      <point x="240.25" y="153.0" />
+      <point x="279.0" y="153.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="175.5" y="203.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
